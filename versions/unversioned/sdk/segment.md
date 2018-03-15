@@ -17,6 +17,8 @@ Accepts an object with the following keys:
 -   **androidWriteKey (_string_)** -- Write key for Android source.
 -   **iosWriteKey (_string_)** -- Write key for iOS source.
 
+**Note**: The parameters are case sensitive, so `iOSWriteKey` and the like will not work.  
+
 ### `Expo.Segment.identify(userId)`
 
 Associates the current user with a user ID. Call this after calling [`Expo.Segment.initialize()`](#exposegmentinitialize "Expo.Segment.initialize") but before other segment calls. See <https://segment.com/docs/spec/identify/>.
