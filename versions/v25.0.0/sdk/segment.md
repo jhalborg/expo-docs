@@ -10,6 +10,8 @@ Provides access to <https://segment.com/> mobile analytics. Wraps Segment's [iOS
 
 Segment requires separate write keys for iOS and Android. You will need to log in to Segment to recieve these <https://segment.com/docs/guides/setup/how-do-i-find-my-write-key/>
 
+Note: The parameters must match this exact case. For example, `iOSWriteKey` will not work. 
+
 #### Arguments
 
 Accepts an object with the following keys:
